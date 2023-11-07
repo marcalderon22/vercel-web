@@ -1,17 +1,26 @@
-/* Este es un ejemplo simple de estilos CSS que da estilo a la página. */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+   
+h1 {
+    font-family: 'Courier New', monospace;
+    color: #00FF00; /* Verde fosforescente */
+}
+   
+h2 {
+    font-family: 'Brush Script MT', cursive;
+    color: #0000FF; /* Azul fosforescente */
+}
+   
+p {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #FFFFFF; /* Blanco fosforescente */
     text-align: center;
-  }
-  
-  h1 {
-    color: #333;
-  }
-  
-  p {
-    color: #666;
-  }
-  
-  /* Agrega estilos personalizados según tus preferencias. */
+}
   
