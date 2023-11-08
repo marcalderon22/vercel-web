@@ -23,4 +23,9 @@ p {
     color: #FFFFFF; /* Blanco fosforescente */
     text-align: center;
 }
-  
+
+#countLabel {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+}
